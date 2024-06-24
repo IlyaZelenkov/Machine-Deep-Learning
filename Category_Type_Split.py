@@ -153,12 +153,6 @@ if __name__ == "__main__":
 
     df,category_1, category_2 = manual_assignment()
     
-    df = pd.read_csv('data_1.csv')
-    
-    category_1, category_2 = 'MAKE', 'FUEL_CONSUMPTION'
-
-    print(df['FUEL_CONSUMPTION'].astype(str).dtype)
-    
     main(df, category_1, category_2)
     
     
